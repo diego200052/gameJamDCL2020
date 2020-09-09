@@ -44,7 +44,7 @@ function spawnGrass(x: number, y: number, z: number) : Entity{
   engine.addEntity(grass)
 
   const random2 = Math.floor(Math.random() * 5); 
-  if(random2 == 1 && z < 35.0)
+  if(random2 == 1 && z < 36.0)
   {
     mines.push(grass)
     transformMines.push(transform)
